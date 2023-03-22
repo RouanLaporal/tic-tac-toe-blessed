@@ -11,13 +11,13 @@ pipeline{
         stage('test'){
             steps{
                 echo 'Testing'
-                //sh 'npm test'
+                bat 'npm test'
             }
         }
         stage('deploy'){
             steps{
                 echo 'Deployment'
-                //sh 'npm start'
+                bat 'npm start'
             }
         }
     }
