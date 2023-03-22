@@ -5,7 +5,11 @@ pipeline{
         stage('build'){
             steps{
                 echo 'Building'
+            }
+            steps{
                 npm run build
+            }
+            steps{
                 echo 'Success'
             }
         }
