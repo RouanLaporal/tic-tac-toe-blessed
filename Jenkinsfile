@@ -5,7 +5,19 @@ pipeline{
         stage('build'){
             steps{
                 echo 'Building'
-                sh 'make'
+                bat 'npm install && npm run build'
+            }
+        }
+        stage('test'){
+            steps{
+                echo 'Testing'
+                //bat 'npm test'
+            }
+        }
+        stage('deploy'){
+            steps{
+                echo 'Deployment'
+                bat 'npm start'
             }
         }
     }
