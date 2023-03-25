@@ -1,6 +1,5 @@
 import React from 'react';
-import Square from './components/Square/Square';
-
+import Square from '../Square/Square'
 const Board = () => {
   return (
     <>
