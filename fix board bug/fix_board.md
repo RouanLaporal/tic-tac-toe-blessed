@@ -1,0 +1,2 @@
+## Fix board bug
+Nous avons déceler un bug au niveau du tableau de jeu, le tableau n'affichait pas les valeurs passées dans le props du composant square. Afin de résoudre ce bug nous avons crée la branche fix_board, sur cette branche nous avons réglés le bug et avons ensuite merge la solution développer sur la staging pour review. Après test et review l'integration manager pourra mettre la solution développée en production.
